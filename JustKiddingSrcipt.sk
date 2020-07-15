@@ -44,3 +44,6 @@ command /JkHelp:
     send "----------------------------------------------" to the player
     send "-------------[&6&lJust Kidding Script&f&r]------------" to the player
     send "----------------------------------------------" to the player
+    
+    
+   # put this file in plugin>skript>srcipt and do  "/sk reload" all in game
