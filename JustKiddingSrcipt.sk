@@ -1,0 +1,46 @@
+command /Jk:
+
+  permission: jk.jk
+  permission message: &4&lNOPE
+  trigger:
+    send "[&aServer&f]&4&l JK" to all players
+    play sound "entity.experience_orb.pickup" at volume 5 with pitch 0.5 to all players
+
+
+command /Just Kidding:
+
+  permission: jk.Justkidding
+  permission message: &4&lNOPE
+  trigger:
+    send "[&aServer&f]&4&l Just kidding" to all players
+    play sound "entity.experience_orb.pickup" at volume 5 with pitch 0.5 to all players
+
+command /Дж:
+
+  permission: jk.Дж
+  permission message: &4&lNOPE
+  trigger:
+    send "[&aServer&f]&4&l Дж" to all players
+    play sound "entity.experience_orb.pickup" at volume 5 with pitch 0.5 to all players
+
+
+command /JkHelp:
+
+  permission: jk.Help
+  permission message: &4&lNOPE
+  trigger:
+    send "----------------------------------------------" to the player
+    send "-------------[&6&lJust Kidding Script&f&r]------------" to the player
+    send "-------------------[&6&lPerms&f&r]-------------------" to the player
+    send "&b&lJk: &7&rjk.jk" to the player
+    send "&b&lJust Kidding: &7&rjk.justkidding" to the player
+    send "&b&lJk help: &7&rjk.help" to the player
+    send "&b&lJk in Russian: &7&rjk.Дж" to the player
+    send "-----------------[&6&lCommands&f&r]------------------" to the player
+    send "&b&lJk: &7&r/jk" to the player
+    send "&b&lJust Kidding: &7&r/just kidding" to the player
+    send "&b&lJk help: &7&r/jkhelp" to the player
+    send "&b&lJk in Russian: &7&r/Дж" to the player
+    send "----------------------------------------------" to the player
+    send "-------------[&6&lJust Kidding Script&f&r]------------" to the player
+    send "----------------------------------------------" to the player
